@@ -1,0 +1,40 @@
+.Navbar {
+  height: 85px;
+  box-sizing: border-box;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  font-size: 1.2rem;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.09);
+}
+
+.Navbar a {
+  text-decoration: none;
+}
+
+.navLogo {
+  font-weight: bolder;
+}
+
+.navMenu {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-weight: bolder;
+  transition: all 0.2s ease-in-out;
+}
+.navLink:hover {
+  color: #7064e5;
+}
+.navIcon {
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,53 @@
+/* styling spinner */
+.spinnerContainer {
+  width: 100%;
+  height: calc(100vh - 85px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* for empty orders */
+.ordersEmpty {
+  width: 100%;
+  text-align: center;
+}
+
+/* orders styling */
+.Orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.OrderTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.OrderTable table {
+  border: none;
+  border: 2px solid rgb(221, 220, 220);
+  margin: 0 auto 4rem;
+  width: 60%;
+}
+.OrderTable th {
+  background-color: #eaeafa;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+.OrderTable td {
+  background-color: #f4f6f8;
+  border: none;
+  padding: 10px;
+  /* white-space: nowrap;
+  overflow: hidden;
+  max-width: 900px; */
+}
+.totalPrice {
+  text-align: end;
+}

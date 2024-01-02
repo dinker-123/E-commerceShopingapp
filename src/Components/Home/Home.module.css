@@ -1,0 +1,141 @@
+/* styling spinner */
+.spinnerContainer {
+  width: 100%;
+  height: calc(100vh - 85px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* home styling */
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* for empty products */
+.productsEmpty {
+  width: 100%;
+  text-align: center;
+}
+
+/* home form styling */
+.HomeForm {
+  width: 25%;
+  margin: auto;
+}
+.HomeForm input {
+  background: #f4f6f8;
+  border: 2px solid #7669ed;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #7064e5;
+  font-size: 1.2em;
+  margin-top: 2rem;
+  outline: none;
+  padding: 12px;
+  width: 100%;
+}
+
+/* sidebar styling */
+.Sidebar {
+  position: fixed;
+  left: 1.2rem;
+  top: 33%;
+  width: 14rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  background: #eaeafa;
+  border-radius: 5px;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.categories input {
+  height: 1rem;
+  margin-right: 0.5rem;
+  width: 1rem;
+}
+
+/* display list styling */
+.List {
+  margin: 1rem 17rem;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* Card styling */
+.ProductCard {
+  border-radius: 5px;
+  padding: 2rem;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0.9rem 0.7rem;
+  box-shadow: 0 2px 8px 0 rgba(64, 77, 148, 0.4);
+}
+.productImage {
+  height: 60%;
+}
+.productImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.titleText {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 8px 0;
+  margin: 0;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.productPrice {
+  margin: 0;
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: space-between;
+  padding: 8px 0;
+  width: 100%;
+}
+.addBtn {
+  border: 2px solid #7064e5;
+  cursor: pointer;
+  width: 100%;
+  background: #7064e5;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  padding: 8px 0;
+  transition: all 0.3s ease-in-out;
+}
+.addBtn:hover {
+  color: #7064e5;
+  background-color: #f4f6f8;
+}
